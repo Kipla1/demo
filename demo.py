@@ -18,7 +18,7 @@ class Student:
 
     # Class Method
     @classmethod
-    def get_count(cls):  # -->classmethods take the class itself(cls) as an argument
+    def get_count(cls):  # -->classmethods takes the class itself(cls) as an argument
         return f"Total number of students: {cls.count}"
 
     @classmethod
