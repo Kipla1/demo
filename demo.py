@@ -29,5 +29,5 @@ student_1 = Student("James", 30, 90)
 student_2 = Student("Spongebob", 20, 75)      
 student_3 = Student("Patrick", 10, 79)      
 
-print(Student.get_count())    #-->To call a  classmethod, append the classmethod(eg get_count() ) to its class(i.e Student)
+print(Student.get_count())    #-->To call a  clasmethod, append the classmethod(eg get_count() ) to its class(i.e Student)
 print(Student.get_average())
